@@ -54,10 +54,15 @@ export default function DownloadPage() {
               </div>
             </CardContent>
             <CardFooter className="flex-col space-y-4">
-              <Button className="w-full bg-green-600 hover:bg-green-700 gap-2">
+            <Button 
+              className="w-full bg-green-600 hover:bg-green-700 gap-2"
+              asChild
+            >
+              <Link href="/downloads/RogueRL-Launcher-v0.0.1.exe" download>
                 <Download className="h-5 w-5" />
                 Download RogueRL-Launcher-v0.0.1.exe (64-bit)
-              </Button>
+              </Link>
+            </Button>
               <p className="text-xs text-gray-400 text-center">
                 Tamanho do arquivo: 45MB • Atualizado em: {new Date().toLocaleDateString()}
               </p>
