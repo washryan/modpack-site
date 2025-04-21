@@ -72,7 +72,7 @@ export default function DownloadPage() {
                 <li>Execute o arquivo baixado</li>
                 <li>Siga as instruções na tela para completar a instalação</li>
                 <li>Inicie o launcher e faça login com seu nickname</li>
-                <li>Clique em "Jogar" para baixar automaticamente todos os mods necessários</li>
+                <li>Clique em Jogar para baixar automaticamente todos os mods necessários</li>
               </ol>
             </div>
 
