@@ -58,7 +58,7 @@ export default function DownloadPage() {
               className="w-full bg-green-600 hover:bg-green-700 gap-2"
               asChild
             >
-              <Link href="/downloads/RogueRL-Launcher-v0.0.1.exe" download>
+              <Link href="/downloads/RogueRLLauncher-v0.0.1.exe" download>
                 <Download className="h-5 w-5" />
                 Download RogueRL-Launcher-v0.0.1.exe (64-bit)
               </Link>
